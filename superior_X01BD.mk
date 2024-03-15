@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The superiorOS Project
+# Copyright (C) 2020 The risingOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,14 +9,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common superiorOS stuff
-$(call inherit-product, vendor/superior/config/common_full_phone.mk)
+# Inherit some common risingOS stuff
+$(call inherit-product, vendor/rising/config/rising.mk)
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := superior_X01BD
+PRODUCT_NAME := rising_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Zenfone Max Pro M2
