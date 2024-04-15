@@ -8,4 +8,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_X01BD-userdebug
+    lineage_X01BD-ap1a-userdebug
