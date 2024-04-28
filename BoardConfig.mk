@@ -8,6 +8,7 @@
 include device/asus/sdm660-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/asus/X01BD
+TARGET_USES_MINI_GAPPS := true
 
 # Assert
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
